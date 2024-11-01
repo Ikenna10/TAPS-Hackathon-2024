@@ -617,8 +617,8 @@ return(out_new)
     
     output$ui_one = renderDataTable(results)
     
-    output$ui_two = plotOutput(p1)
-    output$ui_three = plotOutput(p2)
+    output$ui_two = renderPlot(p1)
+    output$ui_three = renderPlot(p2)
     
     
     
